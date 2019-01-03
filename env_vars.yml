@@ -20,7 +20,6 @@ homebrew_installed_packages:
   - sysdig
   - terraform
   - tflint
-  - tmux
   - wget
   - zsh-syntax-highlighting
 
@@ -29,7 +28,6 @@ homebrew_cask_apps:
   - chefdk
   - coconutbattery
   - docker
-  - gitup
   - google-chrome
   - google-cloud-sdk
   - iterm2
@@ -45,7 +43,6 @@ homebrew_cask_apps:
   - wireshark
 
 mas_installed_apps:
-  - { id: 1014850245, name: "Monit" }
   - { id: 715768417, name: "Microsoft Remote Desktop" }
   - { id: 747648890, name: "Telegram" }
   - { id: 803453959, name: "Slack" }
