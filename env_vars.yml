@@ -13,12 +13,14 @@ homebrew_installed_packages:
   - go
   - htop
   - ipcalc
+  - livestreamer
   - jq
   - mc
   - screen
   - shfmt
   - sysdig
   - terraform
+  - tree
   - tflint
   - wget
   - zsh-syntax-highlighting
@@ -28,6 +30,7 @@ homebrew_cask_apps:
   - chefdk
   - coconutbattery
   - docker
+  - firefox
   - google-chrome
   - google-cloud-sdk
   - iterm2
@@ -36,6 +39,8 @@ homebrew_cask_apps:
   - sequel-pro
   - skype
   - spectacle
+  - tunnelblick
+  - typora
   - vagrant
   - virtualbox
   - visual-studio-code
