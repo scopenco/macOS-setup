@@ -1,5 +1,4 @@
 ---
-# Uncomment lines below to enable some tap
 homebrew_taps:
   - chef/chef
   - wata727/tflint
@@ -49,12 +48,14 @@ homebrew_cask_apps:
   - sourcetree
   - tflint
 
+# mas search facebook
 mas_installed_apps:
   - { id: 946399090,  name: "Telegram Desktop" }
   - { id: 803453959, name: "Slack" }
   - { id: 409201541, name: "Pages" }
   - { id: 409203825, name: "Numbers" }
   - { id: 409183694, name: "Keynote" }
+  - { id: 406056744, name: "Evernote" }
 
 dockitems_to_remove:
   - Maps
@@ -89,27 +90,30 @@ dockitems_to_persist:
   - name: Notes
     path: /Applications/Notes.app
     pos: 6
+  - name: Evernote
+    path: /Applications/Evernote.app
+    pos: 7
   - name: iTerm2
     path: /Applications/iTerm.app
-    pos: 7
+    pos: 8
   - name: Visual Studio Code
     path: /Applications/Visual Studio Code.app
-    pos: 8
+    pos: 9
   - name: Sourcetree
     path: /Applications/Sourcetree.app
-    pos: 9
+    pos: 10
   - name: Telegram
     path: /Applications/Telegram.app
-    pos: 10
+    pos: 11
   - name: Slack
     path: /Applications/Slack.app
-    pos: 11
+    pos: 12
   - name: Skype
     path: /Applications/Skype.app
-    pos: 12
+    pos: 13
   - name: Docker
     path: /Applications/Docker.app
-    pos: 13
+    pos: 14
   - name: VirtualBox
     path: /Applications/VirtualBox.app
-    pos: 14
+    pos: 15
