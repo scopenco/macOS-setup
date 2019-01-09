@@ -1,7 +1,8 @@
 ---
 # Uncomment lines below to enable some tap
-# homebrew_taps:
-#   - some_tap
+homebrew_taps:
+  - chef/chef
+  - wata727/tflint
 
 homebrew_mandatory_packages:
   - dockutil
@@ -21,7 +22,6 @@ homebrew_installed_packages:
   - sysdig
   - terraform
   - tree
-  - tflint
   - wget
   - zsh-syntax-highlighting
 
@@ -32,7 +32,6 @@ homebrew_cask_apps:
   - docker
   - firefox
   - google-chrome
-  - google-cloud-sdk
   - iterm2
   - java
   - psequel
@@ -46,12 +45,13 @@ homebrew_cask_apps:
   - visual-studio-code
   - vlc
   - wireshark
+  - skype
+  - sourcetree
+  - tflint
 
 mas_installed_apps:
-  - { id: 715768417, name: "Microsoft Remote Desktop" }
-  - { id: 747648890, name: "Telegram" }
+  - { id: 946399090,  name: "Telegram Desktop" }
   - { id: 803453959, name: "Slack" }
-  - { id: 928871589, name: "Noizio" }
   - { id: 409201541, name: "Pages" }
   - { id: 409203825, name: "Numbers" }
   - { id: 409183694, name: "Keynote" }
@@ -60,7 +60,6 @@ dockitems_to_remove:
   - Maps
   - Siri
   - Contacts
-  - Downloads
   - Reminders
   - Messages
   - Photos
@@ -70,34 +69,47 @@ dockitems_to_remove:
   - iTunes
   - Launchpad
 
+
 dockitems_to_persist:
   - name: Safari
     path: /Applications/Safari.app
     pos: 1
+  - name: Firefox
+    path: /Applications/Firefox.app
+    pos: 2
+  - name: Google Chrome
+    path: /Applications/Google Chrome.app
+    pos: 3
   - name: Mail
     path: /Applications/Mail.app
-    pos: 2
+    pos: 4
   - name: Calendar
     path: /Applications/Calendar.app
-    pos: 3
+    pos: 5
   - name: Notes
     path: /Applications/Notes.app
-    pos: 4
-  - name: System Preferences
-    path: /Applications/System Preferences.app
-    pos: 5
+    pos: 6
   - name: iTerm2
     path: /Applications/iTerm.app
-    pos: 6
+    pos: 7
   - name: Visual Studio Code
     path: /Applications/Visual Studio Code.app
-    pos: 7
+    pos: 8
+  - name: Sourcetree
+    path: /Applications/Sourcetree.app
+    pos: 9
   - name: Telegram
     path: /Applications/Telegram.app
-    pos: 8
+    pos: 10
   - name: Slack
     path: /Applications/Slack.app
-    pos: 9
+    pos: 11
   - name: Skype
     path: /Applications/Skype.app
-    pos: 10
+    pos: 12
+  - name: Docker
+    path: /Applications/Docker.app
+    pos: 13
+  - name: VirtualBox
+    path: /Applications/VirtualBox.app
+    pos: 14
