@@ -49,6 +49,8 @@ homebrew_cask_apps:
   - tflint
   - whatsapp
   - viber
+  - font-hack
+  - font-hasklig # Cool font with ligatures based on Source Code Pro
 
 # mas search facebook
 mas_installed_apps:
