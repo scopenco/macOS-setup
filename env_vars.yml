@@ -47,6 +47,7 @@ homebrew_cask_apps:
   - skype
   - sourcetree
   - tflint
+  - whatsapp
 
 # mas search facebook
 mas_installed_apps:
@@ -105,15 +106,18 @@ dockitems_to_persist:
   - name: Telegram
     path: /Applications/Telegram.app
     pos: 11
+  - name: WhatsApp
+    path: /Applications/WhatsApp.app
+    pos: 12
   - name: Slack
     path: /Applications/Slack.app
-    pos: 12
+    pos: 13
   - name: Skype
     path: /Applications/Skype.app
-    pos: 13
+    pos: 14
   - name: Docker
     path: /Applications/Docker.app
-    pos: 14
+    pos: 15
   - name: VirtualBox
     path: /Applications/VirtualBox.app
-    pos: 15
+    pos: 16
