@@ -60,6 +60,7 @@ mas_installed_apps:
   - { id: 409203825, name: "Numbers" }
   - { id: 409183694, name: "Keynote" }
   - { id: 406056744, name: "Evernote" }
+  - { id: 966085870, name: "TickTick" }
 
 dockitems_to_remove:
   - Maps
@@ -94,36 +95,39 @@ dockitems_to_persist:
   - name: Notes
     path: /Applications/Notes.app
     pos: 6
+  - name: TickTick
+    path: /Applications/TickTick.app
+    pos: 7
   - name: Evernote
     path: /Applications/Evernote.app
-    pos: 7
+    pos: 8
   - name: iTerm2
     path: /Applications/iTerm.app
-    pos: 8
+    pos: 9
   - name: Visual Studio Code
     path: /Applications/Visual Studio Code.app
-    pos: 9
+    pos: 10
   - name: Sourcetree
     path: /Applications/Sourcetree.app
-    pos: 10
+    pos: 11
   - name: Telegram
     path: /Applications/Telegram.app
-    pos: 11
+    pos: 12
   - name: WhatsApp
     path: /Applications/WhatsApp.app
-    pos: 12
+    pos: 13
   - name: Viber
     path: /Applications/Viber.app
-    pos: 13
+    pos: 14
   - name: Slack
     path: /Applications/Slack.app
-    pos: 14
+    pos: 15
   - name: Skype
     path: /Applications/Skype.app
-    pos: 15
+    pos: 16
   - name: Docker
     path: /Applications/Docker.app
-    pos: 16
+    pos: 17
   - name: VirtualBox
     path: /Applications/VirtualBox.app
-    pos: 17
+    pos: 18
