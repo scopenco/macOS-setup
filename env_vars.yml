@@ -23,6 +23,8 @@ homebrew_installed_packages:
   - tree
   - wget
   - zsh-syntax-highlighting
+  - nmap
+  - whatmask
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
