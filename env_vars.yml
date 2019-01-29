@@ -63,6 +63,7 @@ mas_installed_apps:
   - { id: 409183694, name: "Keynote" }
   - { id: 406056744, name: "Evernote" }
   - { id: 966085870, name: "TickTick" }
+  - { id: 1370791134, name: "DigiDoc4 Client" }
 
 dockitems_to_remove:
   - Maps
