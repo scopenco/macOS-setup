@@ -28,6 +28,8 @@ homebrew_installed_packages:
   - kubernetes-cli
   - jenv
   - watch
+  - aws-iam-authenticator
+  - kubectx
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
