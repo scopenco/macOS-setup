@@ -30,6 +30,7 @@ homebrew_installed_packages:
   - watch
   - aws-iam-authenticator
   - kubectx
+  - kubernetes-helm
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
